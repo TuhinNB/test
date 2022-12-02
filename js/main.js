@@ -1,5 +1,5 @@
 player = new Clappr.Player({
-  source: "http://103.127.93.82:8234/tf_tv2/video.m3u8?token=TheftTheftTheftTheftTheftTheftTheftTheft",
+  source: "https://tv.bdflix.xyz/Tsports/tracks-v1a1/mono.m3u8",
   mimeType: "application/x-mpegURL",
   autoPlay: true,
   height: "400",
