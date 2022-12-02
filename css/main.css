@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&amp;display=swap');
+body{
+    background-color: #171717 !important;
+    color: #F8F5F8 !important;
+}
+.navbar-customer {
+    background-color: #212529 !important;
+}
+.fh{
+    font-family: 'Montserrat', sans-serif !important;
+}
+.accordion-item{
+    background-color: #2C2C2C !important;
+    color: #F8F5F8 !important;
+    border: 1px solid #444242 !important;
+}
+.accordion-button {
+    background-color: #303030 !important;
+    color: #F8F5F8 !important;
+    font-family: 'Montserrat', sans-serif !important;
+}
+.accordion-button:not(.collapsed){
+    box-shadow: none !important;
+}
+.accordion-button::after {
+    flex-shrink: 0;
+    width: var(--bs-accordion-btn-icon-width);
+    height: var(--bs-accordion-btn-icon-width);
+    margin-left: auto;
+    content: "";
+    background-image: var(--bs-accordion-btn-active-icon) !important;
+    background-repeat: no-repeat;
+    background-size: var(--bs-accordion-btn-icon-width);
+    transition: var(--bs-accordion-btn-icon-transition);
+}
+.apps {
+    white-space: nowrap;
+    background: -webkit-linear-gradient(92deg, #95d7e3, #eb76ff);
+    background-size: 600vw 600vw;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: textAnimate 5s linear infinite alternate;
+            animation: textAnimate 5s linear infinite alternate;
+  }
+  
+  @-webkit-keyframes textAnimate {
+    from {
+      -webkit-filter: hue-rotate(0deg);
+              filter: hue-rotate(0deg);
+      background-position-x: 0%;
+    }
+    to {
+      -webkit-filter: hue-rotate(360deg);
+              filter: hue-rotate(360deg);
+      background-position-x: 600vw;
+    }
+  }
+  
+  @keyframes textAnimate {
+    from {
+      -webkit-filter: hue-rotate(0deg);
+              filter: hue-rotate(0deg);
+      background-position-x: 0%;
+    }
+    to {
+      -webkit-filter: hue-rotate(360deg);
+              filter: hue-rotate(360deg);
+      background-position-x: 600vw;
+    }
+  }
+  a {
+    text-decoration: none !important;
+  }
+  .text-link{
+    margin: 0 !important;
+  }
